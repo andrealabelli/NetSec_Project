@@ -29,6 +29,27 @@ Three machine learning models are evaluated:
 
 The dataset used is the **TON_IoT_Train_Test_Network dataset**, publicly available on [Kaggle](https://www.kaggle.com/datasets/alaaelmor/ton-iot-train-test-network).
 
+
+### Evaluation Metrics
+
+To measure performance, Precision, Recall, and F1-score have been used, which are common in classification tasks.
+
+- Precision
+
+$\large\text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}$
+
+
+- Recall
+
+$\large\text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}$
+
+
+- F1-score
+
+$\large F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$
+
+
+
 ## How to run the code
 
 1. Download the dataset from Kaggle 
